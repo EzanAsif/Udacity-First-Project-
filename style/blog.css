@@ -1,0 +1,181 @@
+body {
+    font-family: sans-serif;
+    display: grid;
+    /* grid-template-areas: "hd" "main" "ft"; */
+    grid-template-rows: 100px 800px 100px;
+    /* grid-gap: 10px; */
+}
+
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Subscribe {
+    /* padding-top: 60px;
+    padding-left: 10px; */
+}
+
+.Subscribe a {
+    color: #939393;
+}
+
+.Title {
+    /* display: flex;
+    justify-content: center; */
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.Search {
+    /* display: flex;
+    justify-content: center;
+    padding-top: 50px; */
+}
+
+.Search img {
+    width: 30px;
+    height: 30px;
+}
+
+.Content {
+    font-family: sans-serif;
+    display: grid;
+    grid-template-areas: "main" "right";
+    grid-template-columns: 60% 40%;
+    height: 100%;
+    /* grid-gap: 10px; */
+}
+
+.mainContent {
+    padding-left: 150px;
+    /* justify-content: center; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin: 0;
+}
+
+.blogHeading {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.BlogDate {
+    margin: 0;
+    margin-top: 20px;
+}
+
+.BlogDate h5 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.BlogIntro {
+    border-bottom: 1px solid #B8B8B8;
+    margin: 0px;
+}
+
+.olderPost {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: white;
+    border: 1.5px solid #316DC3;
+    color: #316DC3;
+    border-radius: 50px;
+    margin-right: 15px;
+}
+
+.olderPost:focus {
+    outline: none;
+}
+
+.newerPost {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+    background-color: white;
+    border: 1.5px solid #C8C8C8;
+    color: #A9A9A9;
+    border-radius: 50px;
+}
+
+.newerPost:focus {
+    outline: none;
+}
+
+.buttons {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+p,
+ul,
+ol {
+    color: #606060;
+}
+
+section {
+    margin: 20px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid: "ft";
+    background-color: #f7f8fa;
+}
+
+.footer {
+    position: relative;
+    top: 500px;
+}
+
+.rightCorner {
+    grid-area: "right";
+    margin-left: 70px;
+}
+
+.AboutBox {
+    padding: 10px;
+    background-color: #F5F5F5;
+    width: 300px;
+}
+
+.AboutBox h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.AboutBox p {
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.Archives,
+.ElseWhere {
+    margin-top: 50px;
+}
+
+.Archives ul,
+.ElseWhere ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Archives li {
+    margin-top: 2px;
+}
+
+.ElseWhere li {
+    margin-top: 5px;
+}
+
+a {
+    color: #3366CC;
+}

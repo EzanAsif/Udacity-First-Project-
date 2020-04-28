@@ -1,0 +1,137 @@
+    body {
+        font-family: sans-serif;
+        display: grid;
+        grid-template-areas: "hd" "main" "ft";
+        grid-template-rows: 100px 800px 100px;
+        /* grid-gap: 10px; */
+    }
+    
+    .Header,
+    .Content,
+    .Footer {
+        /* border: 2px solid; */
+    }
+    
+    .Header {
+        /*  */
+        grid: "hd";
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-around;
+        /*  */
+        /* display: grid;
+        grid-template-columns: 20% 60% 20%; */
+        /* text-align: center; */
+        /* vertical-align: middle; */
+        /* /* padding-top: 40px; */
+        /* display: flex; */
+    }
+    /* .Header div:nth-of-type(1) {
+        flex-grow: 1;
+    }
+    
+    .Header div:nth-of-type(2) {
+        flex-grow: 1;
+    }
+    
+    .Header div:nth-of-type(3) {
+        flex-grow: 1;
+    } */
+    
+    .Subscribe {
+        /* padding-top: 60px;
+        padding-left: 10px; */
+    }
+    
+    .Subscribe a {
+        color: #939393;
+    }
+    
+    .Title {
+        /* display: flex;
+        justify-content: center; */
+        font-size: 30px;
+        text-decoration: underline;
+    }
+    
+    .Search {
+        /* display: flex;
+        justify-content: center;
+        padding-top: 50px; */
+    }
+    
+    .Search img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .Content {
+        /* margin-top: 10px; */
+    }
+    
+    .CardsContainer {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-left: 60px;
+        margin-right: 60px;
+        grid-gap: 5px;
+    }
+    
+    .BlogCard {
+        margin: 20px;
+        border: 2px solid #d3d3d3;
+        padding: 10px;
+        border-radius: 20px;
+    }
+    
+    .BlogCard .Cardtop {
+        font-size: 16px;
+        margin: 0px;
+        margin-top: 20px;
+    }
+    
+    .BlogCard .CardHeading {
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 32px;
+    }
+    
+    .BlogCard .CardDate {
+        margin: 0px;
+        /* margin-top: 5px; */
+        color: #939393;
+        font-size: 13px;
+    }
+    
+    .BlogCard .CardDetails {
+        margin: 0px;
+        margin-top: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    
+    .Continue {
+        color: #3498DB;
+    }
+    
+    .Footer {
+        grid: "ft";
+        background-color: #f7f8fa;
+        color: #939393;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* @media(max-width:375px) {
+        body {
+            max-width: 100%; */
+    /* grid-gap: 10px; */
+    /* }
+        .Header,
+        .Title {
+            font-size: 15px;
+        }
+    } */
